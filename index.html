@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <style>
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border: 2px solid black;
+            background-color: #1a2c6a;
+        }
+        .nav div:nth-child(2){
+            display: flex;
+            justify-content: space-between;
+            width: 60%;
+            gap: 20px;
+            color: white;
+        }
+        #login{
+            height: 40px;
+            width:60px;
+            border:1px solid #dd8792;
+            border-radius: 8px;
+            color: #dcdcde;
+            display: flex;
+            background-color: blue;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div>
+            <img src="./Newton-school.jpeg" alt="newton school" style="width:150px; height: 50px;display:flex;justify-content: center;align-content: center;">
+        </div>
+        <div>
+            <p>Data Science & AI</p>
+            <p>B.Tech in CS & AI</p>
+            <p>Newton Edge</p>
+            <p>Refer & Earn</p>
+            <p>FAQ</p>
+            <p>More</p>
+            
+            <p id="login">Sign up</p>
+        </div>
+
+    </nav>
+    
+</body>
+</html>
